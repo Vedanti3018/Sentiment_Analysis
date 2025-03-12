@@ -39,6 +39,7 @@ pip install -r requirements.txt
 
 # Start Ollama service (requires GPU)
 ollama serve
+ollama pull mistral-nemo
 ```
 
 ## API Usage
@@ -83,7 +84,7 @@ curl -X POST "http://localhost:8000/api/sentiment" \
 {
   "statusCode": 200,
   "score": 62.4,
-  "sentiment":Positive
+  "sentiment":"Positive"
 }
 ```
 
@@ -114,13 +115,6 @@ You are an advanced AI assistant named Senty. Your task is to perform sentiment 
 | Max Tokens         | 512       |
 | Response Format    | JSON      |
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 
