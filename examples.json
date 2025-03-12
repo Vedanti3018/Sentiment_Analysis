@@ -1,0 +1,18 @@
+
+[
+    {
+        "name": "Positive Example",
+        "input": "This product completely transformed my workflow! Absolutely brilliant!",
+        "output": "Score: 88.2%\nSentiment: Strongly positive"
+    },
+    {
+        "name": "Sarcastic Example",
+        "input": "Oh great, another update that breaks everything. Just what I needed!",
+        "output": "Score: 12.5%\nSentiment: Strongly negative"
+    },
+    {
+        "name": "Neutral Example", 
+        "input": "The meeting was scheduled for 2 PM. Please bring your laptops.",
+        "output": "Score: 42.1%\nSentiment: neutral"
+    }
+]
