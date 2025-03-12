@@ -1,6 +1,6 @@
 # Sentiment Analysis API with Mistral-Nemo
 
-(https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.chatbotslife.com%2Fhow-sentiment-analysis-can-transform-chatbots-for-better-customer-experience-c1371bead255&psig=AOvVaw3OMKDGIl_05_nO4IkTa98l&ust=1741844110846000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPDTsY_pg4wDFQAAAAAdAAAAABAb)
+![Sentiment Analysis]([https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.chatbotslife.com%2Fhow-sentiment-analysis-can-transform-chatbots-for-better-customer-experience-c1371bead255&psig=AOvVaw3OMKDGIl_05_nO4IkTa98l&ust=1741844110846000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPDTsY_pg4wDFQAAAAAdAAAAABAb](https://miro.medium.com/v2/resize:fit:626/0*pfvAPHKzpyFiYO3U.jpg))
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
