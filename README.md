@@ -22,8 +22,6 @@ A production-ready sentiment analysis API using Mistral-Nemo model via Ollama, d
 
 - [Installation](#installation)
 - [API Usage](#api-usage)
-- [Runpod Deployment](#runpod-deployment)
-- [Gradio Interface](#gradio-interface)
 - [Examples](#examples)
 - [Model Details](#model-details)
 - [Contributing](#contributing)
@@ -68,33 +66,6 @@ curl -X POST "http://localhost:8000/api/sentiment" \
 -H "Content-Type: application/json" \
 -d '{"text": "The service was slower than a snail racing through peanut butter 🐌"}'
 ```
-
-## Runpod Deployment
-
-![Runpod Setup](https://via.placeholder.com/600x300.png?text=Runpod+GPU+Setup)
-*Runpod configuration example - Replace with actual screenshot*
-
-1. Create GPU instance (NVIDIA A100 recommended)
-2. Connect via SSH and setup environment:
-
-```bash
-# Install system dependencies
-sudo apt-get update && sudo apt-get install -y python3-pip
-
-# Install Ollama
-curl -fsSL https://ollama.com/install.sh | sh
-ollama pull mistral-nemo
-
-# Start API
-uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 1
-```
-
-3. Configure network security rules to allow port 8000
-
-## Gradio Interface
-
-![Gradio Demo](https://via.placeholder.com/600x300.png?text=Gradio+Interface+Preview)
-*Interactive demo preview - Replace with actual screenshot*
 
 
 
@@ -157,9 +128,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-**Note**: Replace all placeholder images (via.placeholder.com links) with your actual screenshots and diagrams. Consider adding:
 
-1. Architecture diagram
-2. Performance metrics
-3. Example outputs with different sentiment types
-4. Deployment workflow visualization
