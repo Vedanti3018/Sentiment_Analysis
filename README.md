@@ -1,7 +1,7 @@
 # Sentiment Analysis API with Mistral-Nemo
 
-![Workflow Diagram](https://via.placeholder.com/800x400.png?text=Sentiment+Analysis+Workflow)
-*Example workflow diagram - Replace with your actual image*
+(https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.chatbotslife.com%2Fhow-sentiment-analysis-can-transform-chatbots-for-better-customer-experience-c1371bead255&psig=AOvVaw3OMKDGIl_05_nO4IkTa98l&ust=1741844110846000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPDTsY_pg4wDFQAAAAAdAAAAABAb)
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
@@ -31,8 +31,8 @@ A production-ready sentiment analysis API using Mistral-Nemo model via Ollama, d
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/sentiment-analysis-api.git
-cd sentiment-analysis-api
+ git clone https://github.com/Vedanti3018/Sentiment_Analysis.git
+cd Sentiment_Analysis
 
 # Install dependencies
 pip install -r requirements.txt
