@@ -116,9 +116,6 @@ You are an advanced AI assistant named Senty. Your task is to perform sentiment 
 | Response Format    | JSON      |
 
 
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
